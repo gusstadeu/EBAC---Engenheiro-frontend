@@ -92,6 +92,35 @@ article ul li{
     font-size: 1.6rem;
 }
 
+section .container-form{
+    display: block;
+    float: left;
+    
+    width: 100%;
+    
+    background-color: #be3737 ;
+}
+
+section .cognito{
+    margin: 0 auto;
+    float: left;
+    display: block;
+    width: 100%;
+    height: 430px;
+    background-color: yellow;
+}
+.c-forms-form-body{
+   background-color: #be3737 ; 
+   margin: 0 auto !important;
+   
+}
+
+.c-forms-description,.c-forms-form-title{
+    color: white !important;
+}
+    
+
+
 body footer {
     background-color: #AB0D0D;
     width: 100%;
