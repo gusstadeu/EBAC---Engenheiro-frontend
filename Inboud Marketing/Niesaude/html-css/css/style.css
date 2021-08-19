@@ -21,18 +21,21 @@ header{
 
 body section{
     margin: 1rem ;
+    margin-top: 4rem 
 }
 
 section nav{
     display: block;
     width: 30%;
     float: left;
+    
 }
 nav li {
     background-color: rgb(207, 207, 207);
     width: 80%;
     padding: 10px;
     margin: 10px 0;
+    border-radius: 4px;
 }
 
 nav a{
@@ -56,6 +59,7 @@ section article{
     float: left;
     padding: 0 20px 0 10px;
     box-sizing: border-box;
+    
 }
 
 article img{
@@ -64,13 +68,20 @@ article img{
 }
 
 /*textos formatação*/
-section h1{
+hr{
     margin-bottom: 20px;
-    font-size: 2.2rem;
+    
+}
+section h1{
+    margin-bottom: 2px;
+    padding-left: 10px;
+    font-size: 3.2rem;
+    color:#8F0000 ;
+    border-left: 4px solid  #8F0000 ;
 }
 section h2{
-    margin: 5px 0px 10px;
-    font-size: 1.4rem;
+    margin: 0px 0px 30px;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 section h3{
@@ -94,35 +105,79 @@ article ul li{
 
 section .container-form{
     display: block;
-    float: left;
-    
-    width: 100%;
-    
-    background-color: #be3737 ;
+    float: right;
+    margin:20px 40px 40px;
+    width: ;
+    box-sizing: border-box;
+    background-color: #FF5900 ;
+    border-radius: 20px;
+    max-width: 1000px;
+    clear: auto;
+    padding: 20px 40px;
+}
+
+.c-forms-form{
+    padding: 0px 40px 20px;
+    background-color: #FF5900 !important;
+    margin: 10px auto !important;
 }
 
 section .cognito{
-    margin: 0 auto;
     float: left;
     display: block;
     width: 100%;
-    height: 430px;
-    background-color: yellow;
+    margin: 15px auto !important;
+    height: auto;
 }
 .c-forms-form-body{
-   background-color: #be3737 ; 
+   background-color: #FF5900 ; 
    margin: 0 auto !important;
    
 }
 
-.c-forms-description,.c-forms-form-title{
+.c-forms-form-title h2,
+.c-forms-form-title p,
+.c-title h3,
+.c-label,
+.c-forms-description{
     color: white !important;
+    font-size: 2.0rem !important;
+}
+
+.c-forms-description{
+    font-size: 1.6rem !important;
+}
+
+.c-editor input[type=text]{
+    padding: 10px !important;
+    border-radius: 5px !important;
+    background-color: #ffffff;
+    color: black !important;
+}
+
+.c-editor input[type=text]:focus {
+    outline: none;
+    border: 2.5px solid #8F0000 !important;
+    background-color: rgb(226, 226, 226);
+  }
+
+.c-action .c-button{
+    background-color: #8F0000 !important;
+    font-size: 2.0rem !important;
+    font-family: open sans !important;
+    margin-top: 20px;
+   
+}
+
+.c-action .c-button:hover{
+    background-color: #500303 !important;
+   
 }
     
 
 
 body footer {
-    background-color: #AB0D0D;
+    background-color: #8F0000;
     width: 100%;
     display: block;
     float: left;
@@ -135,4 +190,46 @@ body footer p{
 footer small{
     font-size: 80%;
     display: block;
+}
+
+@media  (max-width:500px) {
+    section article,
+    section nav{
+        width: 100%;
+        margin: 0 auto !important;
+        margin-bottom: 30px !important;
+    }
+    
+    section nav li{
+        margin: 5px auto !important;
+        font-size: 2.0rem;
+    }
+
+    section article{
+        padding: 0px 10px;
+    }
+    header img{
+        width:100%;
+    }
+
+    section .container-form{
+        padding: 10px 10px ;
+        margin: 0px 10px 40px;
+    }
+    .cognito .c-forms-form{
+        padding: 0px 10px 10px ;
+        
+    }
+
+    .c-editor input{
+        width: 100% !important;
+    }
+
+    section article h1{
+        font-size: 2.0rem;
+    }
+
+    .c-action .c-button{
+        font-size: 100%;
+    }
 }
