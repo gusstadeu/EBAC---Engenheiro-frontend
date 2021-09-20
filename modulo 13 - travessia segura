@@ -1,0 +1,16 @@
+# Passagem do rio Segura
+
+Inicio
+receber o primeiro item - 'Lobo'
+receber o segundo item - 'cabra'
+receber o terceiro item - 'alfafa'
+receber o quarto item - 'barco'
+
+Processamento{
+'barco' atravessará com 'cabra' para o outro lado deixando ela la e voltando;
+'barco' atravessará com o 'lobo' e quando voltar ira trazer a 'cabra' para o lado inicial e deixando ela;
+'barco' atravessará com a 'alfafa' deixando a mesma no outro lado com o 'lobo', e voltara sem nenhum item dentro;
+'barco' atravessará com a 'cabra' para o lado onde esta o 'lobo' e a 'alfafa'
+}fim do processamento
+
+Fim
