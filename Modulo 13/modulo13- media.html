@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        input {
+            margin: 10px;
+        }
+    </style>
+<body>
+    <input type="number" id="a">
+    <input type="number" id="b">
+    <input type="number" id="c">
+    
+    <button onclick="obterMedia()">
+        Calcular
+    </button>
+
+    <div id="resultado">
+
+    </div>
+
+    <script>
+        function obterMedia(){
+            let a = parseInt(document.getElementById('a').value);
+            let b = parseInt(document.getElementById('b').value);
+            let c = parseInt(document.getElementById('c').value);
+
+            let soma = a + b + c;
+
+            console.log('A soma é: ' + soma.toFixed(2))
+
+            let media;
+            media = soma / 3;
+            
+            document.getElementById('resultado' ).innerHTML = 'resultado: ' + media.toFixed(2);
+            
+            console.log('A media é: ' + media)
+        }
+        
+    </script>
+
+</body>
+</html>
+
+
