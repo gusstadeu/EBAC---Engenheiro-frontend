@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootstrapdoc/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col col-sm-3 col-12">
+                    <a class="btn" href="https://www.porsche.com/brazil/pt/"><img src="./image/logo.png" id="logo" alt=""></a>
+                </div>
+                <div class="col col-sm-9 col-12">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active" onclick="taycanGo()" href="">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Informações do automóvel-->
+    <section id="information">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h2 id="name-info">Taycan Turbo S</h2>
+                    <!--Tabela sobre o automóvel-->
+                    <table class="table table-hover table-striped">
+                            <div id="sobre-info"><p>O espírito tem várias facetas. É mutável e está em constante movimento. Ao ver o Porsche Taycan, mostra um sorriso, expressando intenso entusiasmo. Ou no anseio de liberdade ao volante do novo Taycan Cross Turismo, que mesmo fora do cotidiano permanece no seu habitat.</p></div>
+                        <thead>
+                            <tr>
+                                <td><strong>Dados Técnicos<strong></strong></td>
+                                <td><strong>Valores<strong></strong></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>Numero de Cilindros</td>
+                                <td id="valor1"><strong>-</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Potência (kW)/(cv)</td>
+                                <td id="valor2"><strong>500 kW/625 cv</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Velocidade Máxima</td>
+                                <td id="valor3"><strong>260 Km/h</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Aceleração 0 - 100km/h</td>
+                                <td id="valor4"><strong>2,8 s</strong></td>
+                            </tr>
+                            <tr>
+                                <td>RPM Potência Máxima</td>
+                                <td id="valor5"><strong>-</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Torque máximo</td>
+                                <td id="valor6"><strong>1.050 Nm</strong></td>
+                            </tr>
+                            <tr>
+                                <td id='dado1'>Capacidade bruta da bateria</td>
+                                <td id="valor7"><strong>93,4 kWh</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Capacidade do porta-malas</td>
+                                <td id="valor8"><strong>366 l</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Peso (DIN)</td>
+                                <td id="valor9"><strong>2.295 kg</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Tamanhos (C/L/A)</td>
+                                <td id="valor10"><strong>4.963 mm/1.966 mm/1.378 mm</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <!--Imagem lateral-->
+                <div class="col-md-5 col-sm-12">
+                    <img src="./image/taycan-info.png" id="img-info" alt="Imagem Exemplo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Produtos - section-->
+    <section id="produtos">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h2>Models</h2>
+
+                    
+                     
+                <div class="row">
+                    <div class="col-sm-4 col-md-4">
+                        <!--Card Taycan Turbo S-->
+                        <div class="card">
+                           
+                                <div class="content content-img-1" >
+                                <div class="card-body">
+                                    <h5 class="card-title">Taycan Turbo S</h5>
+                                </div>
+                                </div> 
+                                
+                           
+                            
+                            <div class="row">
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-taycan">Dados Técnicos</button>
+                                    <a href="#information" onclick="taycanGo()" class="btn btn-primary">Mais Detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <!--Card Cayenne Turbo-->
+                         <div class="card">
+                            <div class="content content-img-2">
+                                <div class="card-body">
+                                <h5 class="card-title">Cayenne Turbo</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-cayenne">Dados Técnicos</button>
+                                    <a href="#information" onclick="cayenneGo()" class="btn btn-primary">Mais Detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="card"><!--Card Panamera Turbo S E-Hybrid-->
+                            <div class="content content-img-3">
+                                <div class="card-body">
+                                    <h5 class="card-title card-tit-special">Panamera Turbo S<br>E-Hybrid</h5>
+                                </div>
+                            </div>    
+                                <div class="row test">
+                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-panamera">Dados Técnicos</button>
+                                        <a href="#information" onclick="panameraGo()" class="btn btn-primary">Mais Detalhes</a>
+                                    </div>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>     
+                    
+                     
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Contato - section-->
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Contato</h2>
+                    <p>Ficou interessado? Preencha os campos do formulário para receber uma cotação.</p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <form class="form">
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                        </div>
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea  class="form-control" name="" rows="5"></textarea>
+                        </div>
+
+                        <button type="submit" id="bb-contat" class="btn btn-lg btn-success">Solicitar Cotação</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Sobre - section-->
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <h2>Sobre a Porsche</h2>
+                    <p>Dr. Ing. h.c. F. Porsche AG (pronúncia em alemão:ˈpɔʁʃə'), geralmente abreviado para Porsche AG, ou somente Porsche, é uma das principais marcas de automóveis esportivos do mundo, criada na Áustria e, hoje, sediada em Stuttgart, Alemanha.</p>
+                    <p>A marca alemã Porsche foi fundada em 1931 por Ferdinand Porsche e o seu filho Ferry Porsche. Ferdinand Porsche já era conhecido antes de fundar a Porsche, ele havia trabalhado para outras marcas. Havia também lançado em 1900 o primeiro automóvel híbrido.</p>
+                    <p>Em 1997, a Stuttgart Veículos foi nomeada representante oficial de importações da Porsche no Brasil e ao longo dos anos desenvolveu o país para uma posição de destaque entre os maiores importadores da marca na América Latina.</p>
+                    <p>Em Agosto de 2015 a Porsche Brasil assumiu as operações no país tornando-se oficialmente a 18° subsidiária da marca no mundo e a primeira da América Latina, o escritório está sediado na cidade de São Paulo.</p>
+                    <p>Atualmente quem está à frente da empresa que conta com 45 funcionários é Andreas Marquardt, Diretor Presidente da Porsche Brasil.</p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <img src="./image/sobre.jpg" id="img-info" alt="Imagem Exemplo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Modal do Taycan Turbos S-->
+    <div class="modal fade" id="modal-taycan" tabindex="-1" aria-labelledby="taycan-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" >
+                    <h5 class="modal-title" id="taycan-label">Taycan Turbo S</h5>
+                    <button type="button" class="btn-close"  data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-hover">
+                        <thead >
+                            <tr>
+                                <th>Dados Técnicos</th>
+                                <th>Valores</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Potência (cv)</td>
+                                <td>625 cv</td>
+                            </tr>
+                            <tr>
+                                <td>Velocidade Máxima</td>
+                                <td>260 Km/h</td>
+                            </tr>
+                            <tr>
+                                <td>Aceleração 0 - 100km</td>
+                                <td>2,8 s</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Voltar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Modal da Cayenne Turbo-->
+    <div class="modal fade" id="modal-cayenne" tabindex="-1"        aria-labelledby="cayenne-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" >
+                    <h5 class="modal-title" id="cayenne-label">Cayenne Turbo</h5>
+                    <button type="button" class="btn-close"  data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Dados Técnicos</th>
+                                <th>Valores</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Potência (cv)</td>
+                                <td>550 cv</td>
+                            </tr>
+                            <tr>
+                                <td>Velocidade Máxima</td>
+                                <td>286 Km/h</td>
+                            </tr>
+                            <tr>
+                                <td>Aceleração 0 - 100km</td>
+                                <td>4,1 s</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Voltar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Modal do Panamera Turbo-->
+    <div class="modal fade" id="modal-panamera" tabindex="-1" aria-labelledby="panamera-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" >
+                    <h5 class="modal-title" id="panamera-label">Panamera Turbo S E-Hybrid</h5>
+                    <button type="button" class="btn-close"  data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Dados Técnicos</th>
+                                <th>Valores</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Potência (cv)</td>
+                                <td>700 cv</td>
+                            </tr>
+                            <tr>
+                                <td>Velocidade Máxima</td>
+                                <td>315 Km/h</td>
+                            </tr>
+                            <tr>
+                                <td>Aceleração 0 - 100km</td>
+                                <td>3,2 s</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Voltar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-header">
+                <div class="col-md-6 agre-fot">Em poucos passos você pode pedir um orçamento de job, Me chama no Whats ou por e-mail e vamos conversar.</div>
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <div class="row agradeciment">Agradecimentos</div>
+                    <div class="row agradeciment-text">Projeto desenvolvido em HTML, CSS, Bootstrap e JavaScript. Com a finalidade de aprofundar os estudos e treinar minhas experiências</div>
+                    
+                </div>
+                
+                
+            </div>
+
+            <div class="row">
+                <div class="col redes">Redes Sociais</div>
+            </div>
+            <div class="row redes-02">
+                <div class="col col-4"><a target="_blank" href="https://www.linkedin.com/in/guss-tadeu/"><div class="icons8-linkedin"></div><p>Gustavo Tadeu</p></a></div>
+                    <div class="col col-8"><a target="_blank" href="https://www.instagram.com/guss_ttadeu_/"><div class="icons8-instagram"></div><p>guss_ttadeu_</p></a></div>
+                    <div class="col col-4"><a><div class="icons8-whatsapp"></div><p>11 976126425</p></a></div>
+                    <div class="col col-8">
+                        <a target="_blank" href="https://outlook.live.com/mail/0/deeplink/compose/AQMkADAwATZiZmYAZC1kZAA2OS1mNDhmLTAwAi0wMAoARgAAA6jbVnPd945Ppa4E4NbhjCYHADadhIQAxGbGRIH2tLJoVCWAAAACAQ8AAAA2nYSEAMRmxkSB9rSyaFQlgAAExz0zmAAAAA%3D%3D?popoutv2=1&version=20211004002.02"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAABmJLR0QA/wD/AP+gvaeTAAADQ0lEQVQ4ja1VWUwTURQ9bZnB2Jq4BGlBLbJEiFBFExaXD8EukggSExNQFBdAQePygbZaRFFRJGJAREQTY7TaRoN/CBijsokmKi0FxA0XUKoJmtikeQ0zfjysLKNRw/mZOee9d+697857I1IoAzEeEI+LCwAvQZVhmBVajU6jjgifq5DLAXz89Mlqa6+tv1NTW+d2u8cuEY0tLUGnNRr0ylkzBWP0vH1XcKywprbuT0ZisdiwNzc7KwNAZ1eXyWxpaGz60NsHYOYM/6VLFqesWRMWOgdAeUVl4clijuOEjQ7o92VnZRBCjPmHr143D5/niZSWmnIo7wDLsuUVlUdPFAkYJei0F86dJYSkpKW3tLYK1kWxKCbadPkSy7KbMrferqsfikEfDMMYDXoAxvzDHhd1fJzFdOVlh+2F3WYxXVket4zqzQ9b8wuOAsgz6Bmvn+1SKAMVysCsnB08z3d0dvrPDqbK6bIz/BiUlJ6hozMCQzq7nvM8n7EthypDGek0agAms4Xuizo+buf2HEJIwbHjkVGxkVGxRwqPE0J27ciheQ0ODl4zWzwLf5WmiggH0NDYRGnmls0AThSfqjhf1e9w9DscZyurik6VeIYAPGhsBDBPFTHCyHe6L4Devj5K56tUAG5W3xq+xzduVgOYP09FaW9vHwC5r3yE0Sjw4AGIRKLholgiBiCTSin97nQCkEonjjDqd/QD8Pfzo/RZmxXA6uSk4Uark1fRF4ZhALAsC4AQQkXJpMlTACxcEBkWOud1T8+Tp88ADAwMJCclxkRHEbf73fsPMpksff263D27JRIJAJfLZe/oyNy8acniRdb2dtN1MzC6/V2e9peUCrS/tq6e4zgP5Thu7YaNdP5QRq/f9CQnJYYEB33+/KXNagPQ1NLSZrX5+PhMmzqNuEnro8cG48HTZeXPu7tDgoNkUqnNbs/V77977z4t7dcRWaHVXKysIISkrk9vfvinIyKIoYwAvHz1aoL3hNiY6FWJK79+/Waz23me/x8jWo436x0bEx0ftyxBp2VZ1ul0ulwuwZtsFAQuNp1GnWfQBwQof7fGLyDor4wAMF5eWo1ap1GrIsIVcoXnq/tno//AuP1FfgCJ/m1eMMzEegAAAABJRU5ErkJggg=="><br>gustavo.tadeu.silva@hotmail.com</a>
+                    </div>
+            </div>
+            <hr>
+            <div class="row footer-footer">
+                <div class="col">desenvolvido por Gustavo Tadeu</div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+    <script src="./bootstrapdoc/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

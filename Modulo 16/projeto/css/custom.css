@@ -1,0 +1,419 @@
+
+
+header{
+    margin-top: 20px;
+}
+
+.nav a{
+    color :rgb(0, 0, 0);
+    font-size:18px;
+    
+}
+
+.nav a:hover{
+    transition-duration: 0.4s;
+    color :#8f0000;
+    border-bottom:2px solid #ca0808;
+}
+
+#information{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+#information p,
+#information td{
+    font-size: 16px;
+}
+
+section{
+    padding: 4rem 0 ;
+}
+
+input,
+textarea{
+    margin-bottom: 1rem;
+}
+
+.card {
+    width: 31.9%;
+    float: left;
+    margin: 5px;
+    border: none;
+    
+}
+
+.card-title {
+    color:white;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 135px;
+    padding:10px 10px 0;
+}
+
+.card-body{
+    position:relative;
+    padding:0;
+}
+
+#sobre-info{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+@media (max-width:992px){
+
+    .card-title {
+        color: white;
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 106px;
+        padding: 10px 10px 0;
+    }
+}
+
+@media (max-width:768px){
+    .card-title {
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 75px;
+        padding: 10px 10px 0;
+    }
+
+    .col-9 a{
+        font-size: 15px;
+    }
+
+    .card {
+        width: 31.4%;
+        float: left;
+        margin: 5px;
+        border: none;
+        
+    }
+
+    .row-special{
+        width: 550px;
+    }
+
+    .container{
+        margin: 0 auto;
+    }
+
+}
+
+@media (min-width: 541px){
+    .col-sm-4 {
+        flex:0 auto;
+        width: 33.33333333%;
+        display: contents;
+    }
+    }
+    .content{
+        width: auto;
+        height: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: inherit;
+        border-radius: 10px;
+    }
+
+
+@media (max-width:540px){
+    .card-title {
+        color: white;
+        font-size: 44px;
+        font-weight: 300;
+        margin-bottom: 238px;
+        padding: 10px 33px 0;
+    }
+
+    .card-tit-special{
+        font-size: 50px;
+        font-weight: 300;
+        margin-bottom: 175px;
+        padding: 10px 30x 0;
+    }
+    
+    .nav a{
+        color :rgb(0, 0, 0);
+        font-size:20px;
+        
+        
+    }
+
+    .nav-item{
+        margin: 0 auto;
+    }
+
+
+    .agradeciment {
+        font-size: 24px;
+      
+    }
+
+    .agradeciment-text{
+        font-size: 16px;
+    }
+
+
+    .agre-fot{
+        font-size: 18px;
+        border: 2px solid rgb(105, 105, 105);
+        padding:15px 20px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+
+    .card {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+
+
+}
+
+@media (max-width:425px){
+
+    .nav a{
+        color :rgb(0, 0, 0);
+        font-size:16px;
+        
+        
+    }
+
+
+    .card-title {
+        color: white;
+        font-size: 36px;
+        font-weight: 300;
+        margin-bottom: 169px;
+        padding: 10px 10px 0;
+    }
+
+    .card-tit-special{
+        color: white;
+        font-size: 35px;
+        font-weight: 300;
+        margin-bottom: 132px;
+        padding: 10px 10px 0;
+    }
+}
+
+
+@media (max-width:320px){
+
+    .card-title {
+        color: white;
+        font-size: 26px;
+        font-weight: 300;
+        margin-bottom: 140px;
+        padding: 10px 10px 0;
+    }
+
+    .card-tit-special{
+        color: white;
+        font-size: 26px;
+        font-weight: 300;
+        margin-bottom: 110px;
+        padding: 10px 10px 0;
+    }
+}
+
+.content-img-1{
+    background-image: url("https://files.porsche.com/filestore/image/multimedia/none/carrange-flyout-taycan/small/094d1c1c-bab0-11e9-80c4-005056bbdc38;sQ;twebp;c1693;gc/porsche-small.webp");
+    
+}
+
+.content-img-2{
+    background-image: url("https://files.porsche.com/filestore/image/multimedia/none/carrange-flyout-cayenne/small/46131fe5-6694-11e9-80c4-005056bbdc38;sQ;twebp;c1693;gc/porsche-small.webp");
+    
+}
+
+.content-img-3{
+    background-image: url("https://files.porsche.com/filestore/image/multimedia/none/carrange-flyout-panamera/small/31077aa2-d337-11ea-80cc-005056bbdc38;sQ;twebp;c1693;gc/porsche-small.webp");
+    
+} 
+
+#img-info{
+    border-radius: 30px;
+    
+}
+
+#contato h2,
+#sobre h2{
+    color: #8F0000;
+    padding-left: 20px;
+    border-left: 2px solid #8f0000;
+    margin-bottom: 30px;
+}
+
+#logo{
+    height:40px ;
+}
+
+#information h2{
+    font-size: 50px;
+    padding-left: 20px;
+    border-left: 2px solid #8f0000;
+    margin-bottom: 30px;
+}
+
+
+
+.btn-group .btn{
+    background-color: black;
+    border: none;
+    border-left: 1px dashed rgb(109, 109, 109);
+    color: #dddbdb;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 5px 0px 0;
+    
+    
+     border-radius: 25px 
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    
+}
+
+.btn-group .btn:hover{
+    background: rgb(42, 42, 42);
+
+}
+
+
+.modal-header{
+    color: white;
+    background-color: #191f22;
+}
+.modal-footer{
+    color: white;
+    background-color: #191f22;
+}
+
+ .modal-body{
+   
+    background-color: #e6e6e6;
+}
+
+.modal-footer .btn-primary{
+    background: rgb(93, 93, 93);
+    color:rgb(211, 211, 211);
+    border: none;
+    border:1px solid rgb(56, 56, 56);
+    padding:5px 20px;
+    border-radius: 10px;
+}
+
+.modal-footer .btn-primary:hover{
+    background: rgb(63, 63, 63);
+    color:rgb(182, 182, 182);
+    border: none;
+    border:1px solid rgb(56, 56, 56);
+    
+}
+
+#bb-contat{
+    background-color: #8f0000;
+    border:none;
+    border:2px solid #460000
+}
+
+#bb-contat:hover{
+    background-color: #640000;
+    border:none;
+    border:2px solid #460000
+}
+
+
+
+.footer{
+    background-color: #191f22;
+    color:rgb(206, 206, 206);
+}
+
+.redes,
+.footer-header{
+    font-size: 20px;
+    padding: 25px 10px 0px;
+    
+}
+
+.agradeciment {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+
+.agre-fot{
+    font-size: 18px;
+    border: 2px solid rgb(105, 105, 105);
+    padding:15px 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+
+.text-fot{
+font-size: 12px;
+   padding:20px;
+   
+   font-weight: 500;
+   
+
+}
+
+.footer-body{
+    font-size: 14px;
+}
+
+.redes{
+    margin: 20px 0 10px ;
+}
+
+.redes-02 a{
+    text-decoration: none;
+    color:rgb(206, 206, 206); 
+}
+
+.redes-02 a:hover{
+    
+    color:rgb(158, 158, 158); 
+}
+
+.footer-footer{
+    font-size:20px ;
+    text-align: center;
+   
+    padding-bottom: 16px;
+}
+
+.icons8-linkedin { 
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCAyMjYgMjI2IgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDIyNnYtMjI2aDIyNnYyMjZ6IiBmaWxsPSIjMTkxZjIyIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTE4MC44LDMwLjEzMzMzaC0xMzUuNmMtOC4zMjQzMywwIC0xNS4wNjY2Nyw2Ljc0MjMzIC0xNS4wNjY2NywxNS4wNjY2N3YxMzUuNmMwLDguMzI0MzMgNi43NDIzMywxNS4wNjY2NyAxNS4wNjY2NywxNS4wNjY2N2gxMzUuNmM4LjMyNDMzLDAgMTUuMDY2NjcsLTYuNzQyMzMgMTUuMDY2NjcsLTE1LjA2NjY3di0xMzUuNmMwLC04LjMyNDMzIC02Ljc0MjMzLC0xNS4wNjY2NyAtMTUuMDY2NjcsLTE1LjA2NjY3ek04Mi41MjAxMywxNjUuNzMzMzNoLTIyLjIyMzMzdi03MS41MDY0aDIyLjIyMzMzek03MS4xODI0Nyw4NC4wMDQyYy03LjE2NDIsMCAtMTIuOTU3MzMsLTUuODA4MiAtMTIuOTU3MzMsLTEyLjk1NzMzYzAsLTcuMTQ5MTMgNS44MDA2NywtMTIuOTQ5OCAxMi45NTczMywtMTIuOTQ5OGM3LjE0MTYsMCAxMi45NDk4LDUuODA4MiAxMi45NDk4LDEyLjk0OThjMCw3LjE0OTEzIC01LjgwODIsMTIuOTU3MzMgLTEyLjk0OTgsMTIuOTU3MzN6TTE2NS43NjM0NywxNjUuNzMzMzNoLTIyLjIwODI3di0zNC43NzM4N2MwLC04LjI5NDIgLTAuMTUwNjcsLTE4Ljk2MTQgLTExLjU0ODYsLTE4Ljk2MTRjLTExLjU2MzY3LDAgLTEzLjM0MTUzLDkuMDMyNDcgLTEzLjM0MTUzLDE4LjM1ODczdjM1LjM3NjUzaC0yMi4yMDgyN3YtNzEuNTA2NGgyMS4zMTkzM3Y5Ljc3MDczaDAuMzAxMzNjMi45NjgxMywtNS42MTk4NyAxMC4yMTUyLC0xMS41NDg2IDIxLjAyNTUzLC0xMS41NDg2YzIyLjUwMjA3LDAgMjYuNjYwNDcsMTQuODEwNTMgMjYuNjYwNDcsMzQuMDY1NzN6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=') 50% 50% no-repeat;
+    background-size: 100%; }
+
+    .icons8-whatsapp { 
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCAyMjYgMjI2IgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDIyNnYtMjI2aDIyNnYyMjZ6IiBmaWxsPSIjMTkxZjIyIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTE3OS42NDE3NSw0Ni40MDUzM2MtMTcuNzU5ODMsLTE3Ljc2OTI1IC00MS4zNzY4MywtMjcuNTYyNTggLTY2LjUzODE3LC0yNy41NzJjLTUxLjg0ODE3LDAgLTk0LjA0NDI1LDQyLjE3NzI1IC05NC4wNjMwOCw5NC4wMjU0MmMtMC4wMDk0MiwxNi41NzMzMyA0LjMyMjI1LDMyLjc1MTE3IDEyLjU1MjQyLDQ3LjAwOGwtMTIuNzU5NTgsNDcuMjk5OTJsNDkuMjc3NDIsLTExLjY0ODQyYzEzLjczODkyLDcuNDk1NjcgMjkuMjAxMDgsMTEuNDQxMjUgNDQuOTQ1NzUsMTEuNDUwNjdoMC4wMzc2N2M1MS44Mzg3NSwwIDk0LjAzNDgzLC00Mi4xODY2NyA5NC4wNjMwOCwtOTQuMDI1NDJjMC4wMTg4MywtMjUuMTMzMDggLTkuNzU1NjcsLTQ4Ljc1OTUgLTI3LjUxNTUsLTY2LjUzODE3ek0xNTkuMTIyODMsMTQ2LjQ2NjgzYy0xLjk1ODY3LDUuNDg5OTIgLTExLjU1NDI1LDEwLjc4MjA4IC0xNS44NjcwOCwxMS4xNjgxN2MtNC4zMTI4MywwLjM5NTUgLTguMzUyNTgsMS45NDkyNSAtMjguMjAyOTIsLTUuODc2Yy0yMy44OTAwOCwtOS40MTY2NyAtMzguOTc1NTgsLTMzLjkwOTQyIC00MC4xNDMyNSwtMzUuNDcyNThjLTEuMTc3MDgsLTEuNTcyNTggLTkuNTk1NTgsLTEyLjc0MDc1IC05LjU5NTU4LC0yNC4zMDQ0MmMwLC0xMS41NjM2NyA2LjA3Mzc1LC0xNy4yNTEzMyA4LjIzMDE3LC0xOS41OTYwOGMyLjE1NjQyLC0yLjM1NDE3IDQuNjk4OTIsLTIuOTM4IDYuMjcxNSwtMi45MzhjMS41NjMxNywwIDMuMTM1NzUsMCA0LjUwMTE3LDAuMDU2NWMxLjY3NjE3LDAuMDY1OTIgMy41MzEyNSwwLjE1MDY3IDUuMjkyMTcsNC4wNTg1OGMyLjA5MDUsNC42NTE4MyA2LjY1NzU4LDE2LjI3MiA3LjI0MTQyLDE3LjQ0OTA4YzAuNTgzODMsMS4xNzcwOCAwLjk3OTMzLDIuNTUxOTIgMC4xOTc3NSw0LjExNTA4Yy0wLjc4MTU4LDEuNTYzMTcgLTEuMTc3MDgsMi41NDI1IC0yLjM0NDc1LDMuOTE3MzNjLTEuMTc3MDgsMS4zNzQ4MyAtMi40NjcxNywzLjA2MDQyIC0zLjUyMTgzLDQuMTE1MDhjLTEuMTc3MDgsMS4xNjc2NyAtMi40MDEyNSwyLjQ0ODMzIC0xLjAzNTgzLDQuNzkzMDhjMS4zNzQ4MywyLjM1NDE3IDYuMDgzMTcsMTAuMDQ3NTggMTMuMDcwMzMsMTYuMjcyYzguOTgzNSw4LjAwNDE3IDE2LjU0NTA4LDEwLjQ4MDc1IDE4Ljg5OTI1LDExLjY2NzI1YzIuMzU0MTcsMS4xNzcwOCAzLjcxOTU4LDAuOTc5MzMgNS4wOTQ0MiwtMC41OTMyNWMxLjM3NDgzLC0xLjU2MzE3IDUuODc2LC02Ljg1NTMzIDcuNDM5MTcsLTkuMjA5NWMxLjU2MzE3LC0yLjM1NDE3IDMuMTM1NzUsLTEuOTU4NjcgNS4yOTIxNywtMS4xNzcwOGMyLjE1NjQyLDAuNzgxNTggMTMuNzEwNjcsNi40NjkyNSAxNi4wNTU0Miw3LjY0NjMzYzIuMzU0MTcsMS4xNzcwOCAzLjkxNzMzLDEuNzYwOTIgNC41MDExNywyLjc0MDI1YzAuNTgzODMsMC45Njk5MiAwLjU4MzgzLDUuNjc4MjUgLTEuMzc0ODMsMTEuMTY4MTd6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=') 50% 50% no-repeat;
+        background-size: 100%; }
+
+        .icons8-instagram { 
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCAyMjYgMjI2IgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDIyNnYtMjI2aDIyNnYyMjZ6IiBmaWxsPSIjMTkxZjIyIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTc1LjMzMzMzLDI4LjI1Yy0yNS45OTk0MiwwIC00Ny4wODMzMywyMS4wODM5MiAtNDcuMDgzMzMsNDcuMDgzMzN2NzUuMzMzMzNjMCwyNS45OTk0MiAyMS4wODM5Miw0Ny4wODMzMyA0Ny4wODMzMyw0Ny4wODMzM2g3NS4zMzMzM2MyNS45OTk0MiwwIDQ3LjA4MzMzLC0yMS4wODM5MiA0Ny4wODMzMywtNDcuMDgzMzN2LTc1LjMzMzMzYzAsLTI1Ljk5OTQyIC0yMS4wODM5MiwtNDcuMDgzMzMgLTQ3LjA4MzMzLC00Ny4wODMzM3pNMTY5LjUsNDcuMDgzMzNjNS4xOTgsMCA5LjQxNjY3LDQuMjE4NjcgOS40MTY2Nyw5LjQxNjY3YzAsNS4xOTggLTQuMjE4NjcsOS40MTY2NyAtOS40MTY2Nyw5LjQxNjY3Yy01LjE5OCwwIC05LjQxNjY3LC00LjIxODY3IC05LjQxNjY3LC05LjQxNjY3YzAsLTUuMTk4IDQuMjE4NjcsLTkuNDE2NjcgOS40MTY2NywtOS40MTY2N3pNMTEzLDY1LjkxNjY3YzI1Ljk5OTQyLDAgNDcuMDgzMzMsMjEuMDgzOTIgNDcuMDgzMzMsNDcuMDgzMzNjMCwyNS45OTk0MiAtMjEuMDgzOTIsNDcuMDgzMzMgLTQ3LjA4MzMzLDQ3LjA4MzMzYy0yNS45OTk0MiwwIC00Ny4wODMzMywtMjEuMDgzOTIgLTQ3LjA4MzMzLC00Ny4wODMzM2MwLC0yNS45OTk0MiAyMS4wODM5MiwtNDcuMDgzMzMgNDcuMDgzMzMsLTQ3LjA4MzMzek0xMTMsODQuNzVjLTE1LjYwMjA0LDAgLTI4LjI1LDEyLjY0Nzk2IC0yOC4yNSwyOC4yNWMwLDE1LjYwMjA0IDEyLjY0Nzk2LDI4LjI1IDI4LjI1LDI4LjI1YzE1LjYwMjA0LDAgMjguMjUsLTEyLjY0Nzk2IDI4LjI1LC0yOC4yNWMwLC0xNS42MDIwNCAtMTIuNjQ3OTYsLTI4LjI1IC0yOC4yNSwtMjguMjV6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=') 50% 50% no-repeat;
+            background-size: 100%; }
+
+
+
+

@@ -1,0 +1,11 @@
+#contato{
+    min-height: 800px;
+}
+
+textarea{
+    width:100% !important;
+}
+
+.align-input{
+    display:inline;
+}

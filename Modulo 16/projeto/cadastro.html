@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootstrapdoc/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/cadastro-style.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col col-sm-3 col-12">
+                    <a class="btn" href="https://www.porsche.com/brazil/pt/"><img src="./image/logo.png" id="logo" alt=""></a>
+                </div>
+                <div class="col col-sm-9 col-12">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.html/#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.html/#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./cadastro.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+
+<!--Contato - section-->
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h2>Cadastro</h2>
+                    <p>Faça o cadastro para conversar com um de nossos agentes e receber mais informações.</p>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                    <form class="form">
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                                </div>
+                            </div>
+                        </div><!--end .form-row-->
+
+                        <div class="row">
+                            <div class="col">
+                                <label for="endereco">Endereço Completo</label>
+                                <input type="text" id="endereco" placeholder="Digite endereço completo" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <label for="cidade">Cidade</label>
+                                <input type="text" name="cidade" id="cidade" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label for="estado">Estado</label>
+                                <select name="estado" id="estado" class='form-control' >
+                                    <option value="">Selecione um estado</option>
+                                    <option value="sp">SP</option>
+                                    <option value="mg">MG</option>
+                                    <option value="rj">RJ</option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <label for="cep">CEP</label>
+                                <input type="text" name="cep" id="cep" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="input-group">
+                                    <label for="info">Informações</label>
+                                    <textarea  class="form-control" id="info" name="info" rows="5"></textarea>
+                                </div>  
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-check">
+                                    <input type="checkbox" name="promo" id="promo">
+                                    <label for="promo" class="form-check-label">Aceito receber mesagens promocionais</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" id="bb-contat" class="btn btn-lg btn-success">Enviar</button>
+                    </form>
+
+                    <p><a href="#cadastro" data-bs-toggle="modal" data-bs-target="#modal-1">Cadastra-se</a> para receber novidades</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" >
+                    <h5 class="modal-title" id="modal-label">Inscrever-me na lista</h5>
+                    <button type="button" class="btn-close"  data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Preencha os campos para receber novidades e promoções</h6>
+
+                    <form class="form-inline">
+                        <input type="text" class="form-control mb-2" name="nome" placeholder="Nome">
+                        <input type="text" class="form-control mb-2" name="email" placeholder="E-mail" required>
+                        <button class="btn btn-sucess">Receber novidades</button>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary bm-2" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-header">
+                <div class="col-md-6 agre-fot">Em poucos passos você pode pedir um orçamento de job, Me chama no Whats ou por e-mail e vamos conversar.</div>
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <div class="row agradeciment">Agradecimentos</div>
+                    <div class="row agradeciment-text">Projeto desenvolvido em HTML, CSS, Bootstrap e JavaScript. Com a finalidade de aprofundar os estudos e treinar minhas experiências</div>
+                </div>
+                
+                
+            </div>
+            <!-- <div class="row footer-body">
+                <div class="col-md-6"></div>
+                <div class="col-md-1"></div>
+                <div class="col-md-5 text-fot"></div>
+            </div> -->
+            
+            <div class="row">
+                <div class="col redes">Redes Sociais</div>
+            </div>
+            <div class="row redes-02">
+                <div class="col col-4"><a target="_blank" href="https://www.linkedin.com/in/guss-tadeu/"><div class="icons8-linkedin"></div><p>Gustavo Tadeu</p></a></div>
+                    <div class="col col-8"><a target="_blank" href="https://www.instagram.com/guss_ttadeu_/"><div class="icons8-instagram"></div><p>guss_ttadeu_</p></a></div>
+                    <div class="col col-4"><a><div class="icons8-whatsapp"></div><p>11 976126425</p></a></div>
+                    <div class="col col-8">
+                        <a target="_blank" href="https://outlook.live.com/mail/0/deeplink/compose/AQMkADAwATZiZmYAZC1kZAA2OS1mNDhmLTAwAi0wMAoARgAAA6jbVnPd945Ppa4E4NbhjCYHADadhIQAxGbGRIH2tLJoVCWAAAACAQ8AAAA2nYSEAMRmxkSB9rSyaFQlgAAExz0zmAAAAA%3D%3D?popoutv2=1&version=20211004002.02"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAABmJLR0QA/wD/AP+gvaeTAAADQ0lEQVQ4ja1VWUwTURQ9bZnB2Jq4BGlBLbJEiFBFExaXD8EukggSExNQFBdAQePygbZaRFFRJGJAREQTY7TaRoN/CBijsokmKi0FxA0XUKoJmtikeQ0zfjysLKNRw/mZOee9d+697857I1IoAzEeEI+LCwAvQZVhmBVajU6jjgifq5DLAXz89Mlqa6+tv1NTW+d2u8cuEY0tLUGnNRr0ylkzBWP0vH1XcKywprbuT0ZisdiwNzc7KwNAZ1eXyWxpaGz60NsHYOYM/6VLFqesWRMWOgdAeUVl4clijuOEjQ7o92VnZRBCjPmHr143D5/niZSWmnIo7wDLsuUVlUdPFAkYJei0F86dJYSkpKW3tLYK1kWxKCbadPkSy7KbMrferqsfikEfDMMYDXoAxvzDHhd1fJzFdOVlh+2F3WYxXVket4zqzQ9b8wuOAsgz6Bmvn+1SKAMVysCsnB08z3d0dvrPDqbK6bIz/BiUlJ6hozMCQzq7nvM8n7EthypDGek0agAms4Xuizo+buf2HEJIwbHjkVGxkVGxRwqPE0J27ciheQ0ODl4zWzwLf5WmiggH0NDYRGnmls0AThSfqjhf1e9w9DscZyurik6VeIYAPGhsBDBPFTHCyHe6L4Devj5K56tUAG5W3xq+xzduVgOYP09FaW9vHwC5r3yE0Sjw4AGIRKLholgiBiCTSin97nQCkEonjjDqd/QD8Pfzo/RZmxXA6uSk4Uark1fRF4ZhALAsC4AQQkXJpMlTACxcEBkWOud1T8+Tp88ADAwMJCclxkRHEbf73fsPMpksff263D27JRIJAJfLZe/oyNy8acniRdb2dtN1MzC6/V2e9peUCrS/tq6e4zgP5Thu7YaNdP5QRq/f9CQnJYYEB33+/KXNagPQ1NLSZrX5+PhMmzqNuEnro8cG48HTZeXPu7tDgoNkUqnNbs/V77977z4t7dcRWaHVXKysIISkrk9vfvinIyKIoYwAvHz1aoL3hNiY6FWJK79+/Waz23me/x8jWo436x0bEx0ftyxBp2VZ1ul0ulwuwZtsFAQuNp1GnWfQBwQof7fGLyDor4wAMF5eWo1ap1GrIsIVcoXnq/tno//AuP1FfgCJ/m1eMMzEegAAAABJRU5ErkJggg=="><br>gustavo.tadeu.silva@hotmail.com</a>
+                    </div>
+            </div>
+            <hr>
+            <div class="row footer-footer">
+                <div class="col">desenvolvido por Gustavo Tadeu</div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+    <script src="./bootstrapdoc/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
